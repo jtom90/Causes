@@ -1,0 +1,190 @@
+html{
+	margin: 0px;
+}
+body {
+	margin: 0px;
+}
+.clear{
+	clear: both;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.nav_1, .nav_2 {
+	width: 42.5%;
+	/*background-color: red;*/
+	float: left;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+
+}
+.logodiv {
+	width: 15%;
+	/*background-color: blue;*/
+	float: left;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.logo {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	border: solid black 3px;
+}
+.nav_1 ul, .nav_2 ul {
+	list-style-type: none;
+}
+.nav_1 ul li, .nav_2 ul li {
+	display: inline-block;
+	padding: 0px 40px 0 40px;
+	font-style: bold;
+}
+.nav_1 ul li a, .nav_2 ul li a {
+	display: block;
+	padding: 20px 40px;
+	color: black;
+	/*border: solid black 3px;*/
+}
+.nav_1 ul li a:hover, .nav_2 ul li a:hover {
+	display: block;
+	padding: 20px 40px;
+	border: solid black 3px;
+	background-color: black;
+	color: white;
+}
+.maincontent {
+	width: 100%
+}
+.mission {
+	background-color: #DCDCDC;
+	text-align: center;
+	height: 300px;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.missionstatement, .quotes {
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify;
+	box-sizing: border-box;
+}
+.videos {
+	padding: 10px 0px 0px 0px;
+}
+.video1 {
+	width: 50%;
+	padding: 0px 10px 0 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.testimonies {
+	margin: 0 auto;
+	background-color: #DCDCDC;
+	padding: 20px 0px 0px 0px;
+}
+.testimony { 
+	margin: 0 auto;
+	width: 80%;
+}
+.testimonyleftimg {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+.testimonyrightimg {
+	width: 100px;
+	height: 100px;
+	float: right;
+	padding: 0px 0px 0px 20px;
+}
+.lefttestimony {
+	margin: 10px 0px 10px 0px;
+	background-color: white;
+}
+.righttestimony {
+	margin: 10px 0px 10px 0px;
+	background-color: grey;
+	opacity: 0.8;
+}
+.testimonylefttext {
+	width: 70%;
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+.testimonyrighttext {
+	width: 70%;
+	float: right;
+	padding: 20px 0px 0px 0px;
+}
+.grafittigif {
+	width: 100%;
+}
+.graffittiisart {
+	text-align: center;
+	background-color: #DCDCDC;
+}
+.graffittiisarttext {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 40px;
+	color: white;
+	padding: 0px;
+}
+.quotes {
+	width: 70%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.quote {
+	width: 50%;
+	float: left;
+	padding: 0px 15px 0px 15px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	box-sizing: border-box;
+}
+.openquote {
+	width: 50px;
+	height: 50px;
+}
+.endquote {
+	width: 50px;
+	height: 50px;
+}
+.openquotediv {
+	width:15%;
+	float: left;
+	padding: 5px 0px 0px 0px;
+	box-sizing: border-box;
+}
+.endquotediv {
+	width: 15%;
+	float: right;
+	text-align: right;
+	padding: 40px 0px 0px 0px;
+	box-sizing: border-box;
+}
+.endquotediv2 {
+	width: 15%;
+	float: right;
+	text-align: right;
+	padding: 110px 0px 0px 0px;
+	box-sizing: border-box;
+}
+.quotetext {
+	width: 70%;
+	float: left;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+	box-sizing: border-box;
+}
