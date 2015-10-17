@@ -1,37 +1,114 @@
-	.nav1 li, .nav2 li{
-		display:inline-block;
-		padding:10px 45px;
-	}
-	a {
-		text-decoration:none;
-	}
-	.nav1, .nav2 {
-		float:left;
-		background-color:black;
-	}
-	.logo {
-		float:left;
-		height:70px;
-		width: 0 auto;
-	}
-	.nav1 {
-		width:35%;
-	}
-	.nav2 {
-		width:50%;
-	}
-	p {
-		text-align:center;
-	}
-	#sect1 {
-		text-align:center;
-		font-family:Verdana;
-		height:500px;
-		background-color:black;
-	}
-	#footer {
-		height:200px;
-		clear:both;
-		text-align:center;
+html{
+	margin: 0px;
+}
+body {
+	margin: 0px;
+}
+.clear{
+	clear: both;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10px;
+}
+footer {
+	text-align: center;
+	padding: 5px 0px;
+	background-color: #A8A8A8;
+	font-size: 12px;
+}
+.nav_1, .nav_2 {
+	width: 42.5%;
+	/*background-color: red;*/
+	float: left;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
 
-	}
+}
+.logodiv {
+	width: 15%;
+	/*background-color: blue;*/
+	float: left;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.logo {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	border: solid black 3px;
+}
+.footerlogo {
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+	border: solid black 3px;
+	opacity: .6;
+}
+.nav_1 ul, .nav_2 ul {
+	list-style-type: none;
+}
+.nav_1 ul li, .nav_2 ul li {
+	display: inline-block;
+	padding: 0px 40px 0 40px;
+	font-style: bold;
+}
+.nav_1 ul li a, .nav_2 ul li a {
+	display: block;
+	padding: 20px 40px;
+	color: black;
+	/*border: solid black 3px;*/
+}
+.nav_1 ul li a:hover, .nav_2 ul li a:hover {
+	display: block;
+	padding: 20px 40px;
+	border: solid black 3px;
+	background-color: black;
+	color: white;
+}
+.clear{
+	clear: both;
+}
+#maincontent {
+	border-style: 2px solid black;
+	height:500px;
+	background-color: #DCDCDC;
+	padding-left:15px;
+	padding-top:10px;
+}
+.comment {
+	padding-top:15px;
+}
+#commentlogo {
+	position:absolute;
+	right:200px;
+	top:150px;
+}
+.address {
+	position:absolute;
+	bottom:100px;
+	right:170px;
+}
+.map {
+	position:absolute;
+	bottom:100px;
+	right:30px;
+	width:240px;
+	height:175px;
+}
+#button {
+	position:absolute;
+	right:340px;
+	bottom:20px;
+}	
+
