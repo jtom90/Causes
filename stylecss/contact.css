@@ -1,3 +1,28 @@
+.subbtn {
+	width: 100px;
+	text-align: center;
+	position: fixed;
+	font-size: 12px;
+}
+.subbtn a {
+	text-decoration: none;
+}
+.subbtn a:hover div {
+	color: white;
+	border: 3px solid #A8A8A8;
+	background-color: black;
+	height: auto;
+}
+.sub-btn {
+	border: 3px solid lightgreen;
+	border-radius: 20px;
+	background-color: lightblue;
+	color: red;
+}
+.vandal {
+	font-size: 20px;
+	text-transform: uppercase;
+}
 html{
 	margin: 0px;
 }
@@ -114,4 +139,40 @@ footer {
 	right:525px;
 	bottom:100px;
 }	
+#submit {
+	position:absolute;
+	top:5px;
+	left:5px;
+	background-color:lightblue;
+	border-radius:20px;
+	border:3px ridge lightgreen;
+	height:50px;
+	text-align:center;
+}
+#submit li a {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:purple;
+}
+#submit ul {
+	text-decoration:none;
+	list-style-type:none;
+	width:75px;
+}
+#submit li {
+	position:absolute;
+	top:3px;
+	left:3px;
+	font-family: 'Condiment', cursive;
+}
+#submit li a:hover {
+	border-color:grey;
+	background-color:black;
+	color:#FFF;
 
+}
+#submit a:hover {
+	background-color:black;
+	color:#FFF;
+
+}
