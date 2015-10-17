@@ -87,7 +87,10 @@ footer {
 	padding-top:10px;
 }
 .comment {
-	padding-top:15px;
+	position:absolute;
+	padding-top:2px;
+	padding-left:15px;
+	top:200px;
 }
 #commentlogo {
 	position:absolute;
@@ -101,14 +104,14 @@ footer {
 }
 .map {
 	position:absolute;
-	bottom:100px;
-	right:30px;
+	bottom:200px;
+	right:200px;
 	width:240px;
 	height:175px;
 }
 #button {
 	position:absolute;
-	right:340px;
-	bottom:20px;
+	right:525px;
+	bottom:100px;
 }	
 
