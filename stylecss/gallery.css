@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+.maincontent {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.top-banner {
+	height: 200px;
+	background-color: purple;
+}
+
+.gif {
+	width: 900px;
+	height: 200px;
+	overflow: hidden;
+	background-color: purple;
+	margin: 0 auto;
+}
+
+.gif img {
+	width: 900px;
+	margin-top: -175px;	
+}
+
+.gallery-title {
+	padding: 0 15px;
+	font-size: 30px;
+	font-family: 'Rock Salt';
+	text-align: center;
+}
+
+.half {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+.profile-img {
+	border: 2px solid blue;
+	float: left;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.info-pic {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	float: left;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+}
+
+.h3-font {
+	font-family: 'Rock Salt';
+	font-size: 15px;
+}
+
+.artist-bio {
+	font-size: 12px
+	line-height: 35px;
+}
+
+.mainimg {
+	width: 50%;
+	height: 50%;
+}
+
+.imggallery{
+	margin-left: 10%;
+}
